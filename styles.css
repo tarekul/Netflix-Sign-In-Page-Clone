@@ -1,0 +1,89 @@
+:root {
+    --input-background-color: rgb(67, 67, 67);
+    --link-color: rgb(48, 167, 241)
+}
+
+body {
+    background-color: black;
+    color: darkgray;
+}
+
+img {
+    width: 15%;
+}
+
+.form-wrapper {
+    width: 30vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+.form-control input {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--input-background-color);
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 30vh;
+}
+
+#sign-in {
+    font-size: 1rem;
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#code {
+    font-size: 1rem;
+    width: 100%;
+    background-color: var(--input-background-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#or {
+    text-align: center;
+    color: darkgray;
+}
+
+.form-help {
+    display: flex;
+    justify-content: space-between;
+}
+
+#need-help {
+    color: darkgray;
+}
+
+#sign-up-now {
+    color: white;
+}
+
+small a{
+    color: var(--link-color);
+}
+
+
+
